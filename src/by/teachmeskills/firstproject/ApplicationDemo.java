@@ -2,6 +2,6 @@ package by.teachmeskills.firstproject;
 
 public class ApplicationDemo {
     public static void main(String[] args) {
-        System.out.println("I'm Vegan! Haha");
+        System.out.println("I'm Vegan and your not lol! Haha");
     }
 }
