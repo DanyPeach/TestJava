@@ -3,17 +3,20 @@ package by.teachmeskills.firstproject;
 public class ApplicationDemo {
     public static void main(String[] args) {
         System.out.println("I'm Vegan and your not lol! Haha");
-        long a = 2;
-        double d = a-4;
-        System.out.println(d + " & " + a);
+        int a = 4;
+        int b = 4;
+        double c = 4.2;
 
-        double h = 2.5;
-        int r = (int)h;
-        System.out.println(r);
+        if (a<c){
+            System.out.println(a+ " < "+c);
+        }else{
+            a++;
+            System.out.println(a+" > " + c);
+        }
 
-        int y = 9;
-        int c = ++y;
-        int e = y++;
-        System.out.println(c + " " + e);
+
+
+
+
     }
 }
