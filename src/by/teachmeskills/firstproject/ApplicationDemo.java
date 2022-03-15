@@ -14,9 +14,19 @@ public class ApplicationDemo {
             System.out.println(a+" > " + c);
         }
 
-
-
-
-
+        int d = 11;
+        switch (d){
+            case 10:
+                d++;
+                System.out.println(d);
+                break;
+            case 11:
+                d++;
+                System.out.println(d + "");
+                break;
+            default:
+                System.out.println("Нет совпадений");
+                break;
+        }
     }
 }
